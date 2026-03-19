@@ -1,14 +1,24 @@
-h3{
-    color:blue
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: antiquewhite;
 }
-h4{
-   background-color:rgb(110, 42, 165)
+h1{
+    color: blueviolet;
 }
-.myclass{
-    color:cadetblue
+a{
+    color: aqua;
 }
-#myid{
-    color:blueviolet
+a:hover {
+    color: blue;
+
+}
+ul li::before{
+    content:"🚀" ;
+} p::first-letter{
+    font-size: 200%;
+    color: brown;
 }
 
-    
+
+
